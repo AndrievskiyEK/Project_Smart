@@ -56,9 +56,9 @@
 
 .typesAssistans__contact{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -71,6 +71,7 @@
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.75s;
+    
     
 }
 
