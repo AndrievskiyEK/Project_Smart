@@ -1,0 +1,100 @@
+/* .homePage__wrapper{
+    width: 1280px; 
+    height: 720px; 
+    background-image: url('../img/Promo.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;  
+    transform: scale();
+} */
+
+.titlePage__wrapper{
+    background-image: url('../img/Promo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%
+} 
+
+.titlePage__brand {
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.titlePage__brand-descriptions{
+    padding-top: 90px;
+    padding-left: 40px;
+    width: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.titlePage__contact{
+    margin-top: 90px;
+    margin-left: 70px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.titlePage__contact-telegramm,
+.titlePage__contact-number,
+.titlePage__contact-whathsApp{   
+    width: 230px;
+    position: relative;   
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.75s;
+}
+
+.titlePage__contact-telegramm:hover,
+.titlePage__contact-number:hover,
+.titlePage__contact-whathsApp:hover {
+    color: #0af;    
+}
+
+.titlePage__contact-telegramm::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconTelegram.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.titlePage__contact-number::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconPhone.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.titlePage__contact-whathsApp::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconWhatsApp.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}

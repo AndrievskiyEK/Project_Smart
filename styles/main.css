@@ -1,0 +1,28 @@
+@import url(./titlePage.css);
+@import url(./services.css);
+@import url(./assistens.css);
+@import url(./typeAssistens.css);
+@import url(./excellence.css);
+@import url(./stages.css);
+@import url(./forClients.css);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
+
+.highlighting{
+    font-weight: 700;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+

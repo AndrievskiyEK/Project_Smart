@@ -1,0 +1,96 @@
+.stages{
+    margin: 20px;
+}
+
+.stages__title{
+    padding-top: 15px;    
+    text-align: center;    
+    color: black;
+    font-weight: 700;
+    font-size: 35px; 
+    opacity: 0.75;
+}
+
+
+
+.stages__card{
+    display: flex;
+    margin-top: 30px;
+    padding: 30px
+}
+
+.stage__number{
+    flex: 30%;
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+/* .stage__number::after{
+  content: " ";
+  background: black;
+  width: 2px;
+  height: 60px;
+  top: 60%;  
+  left: 60.5%; 
+  position: absolute;
+} */
+
+/* .stage__number::after{
+    content:'';
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position:absolute;
+    top:-5%;
+    left:60%;    
+    border: 13px solid black;
+} */
+.stage__descriptions,
+.stage__descriptions-last{
+    flex: 70%;
+    height: 200px;
+    position: relative;
+}
+
+.stage__descriptions::before,
+.stage__descriptions-last::before{
+    content:'';
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position:absolute;
+    top:-5%;
+    left:-132px;     
+    border: 13px solid black;
+}
+
+.stage__descriptions::after{
+    content:'';
+    background: black;
+    width: 1px;
+    height: 200px;    
+    position:absolute;
+    top: 54px;
+    left: -110px;   
+}
+
+
+.stage__descriptions-title{
+    font: inherit; 
+    font-size: 30px;  
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.stage__descriptions-text{
+    margin-top: 20px;
+    list-style:inside;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.stage__after-none{
+    content: none;
+}

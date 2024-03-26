@@ -1,0 +1,120 @@
+/* .typesAssistans{
+    background-color: #3d3b3b;
+} */
+
+.typesAssistans__title{
+    padding-top: 30px;    
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 35px; 
+    opacity: 0.5;
+}
+
+.typesAssistans__card-wrapper{
+    display: flex;
+    gap: 100px;
+}
+
+.typesAssistans__card{
+    height: 800px;
+    flex: 30%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;    
+    border-radius: 30px;
+    background-image: url('../img/laptop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.typesAssistans__card-title{
+    margin-top: 180px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.typesAssistans__card-text{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;  
+    color: white;  
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+/* ------------------- */
+
+.typesAssistans__contact{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.typesAssistans__contact-telegramm,
+.typesAssistans__contact-number,
+.typesAssistans__contact-whathsApp{   
+    width: 230px;
+    position: relative;   
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.75s;
+    
+}
+
+.typesAssistans__contact-telegramm:hover,
+.typesAssistans__contact-number:hover,
+.typesAssistans__contact-whathsApp:hover {
+    color: #0af;    
+}
+
+.typesAssistans__contact-telegramm::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconTelegram.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.typesAssistans__contact-number::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconPhone.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.typesAssistans__contact-whathsApp::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconWhatsApp.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,90 @@
+.services {
+    margin-top: 50px;
+}
+
+.services__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.services__contacts {
+    width: 500px;
+    height: 600px;
+    background-image: url('../img/Contacts.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat; 
+}
+
+.services__contacts-text{
+    width: 350px;
+    padding-top: 285px;
+    padding-left: 70px;
+    padding-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.services__descriptions-header{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 35px;    
+}
+
+.services__descriptions-item{
+    line-height: 40px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.services__contact{
+    margin-top: 10px;
+    margin-left: 70px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.services__contact-telegramm,
+.services__contact-number{   
+    width: 230px;
+    position: relative;   
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.75s;
+}
+
+.services__contact-telegramm:hover,
+.services__contact-number:hover {
+    color: #0af;    
+}
+
+.services__contact-telegramm::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconTelegram.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.services__contact-number::before{
+    position: absolute;
+    content:'';
+    width: 30px;
+    height:30px;
+    top: -8px;
+    left: -30px;
+    background-image: url(../img/iconPhone.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}

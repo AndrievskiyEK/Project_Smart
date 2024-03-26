@@ -1,0 +1,39 @@
+.excellence{
+    margin-top: 50px;
+}
+
+.excellence-wrapper{
+    display: flex;
+}
+
+.excellence__img{
+    flex: 50%;  
+    height: 600px;      
+    background-image: url('../img/logo.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat; 
+}
+
+.excellence__descriptions{
+    flex: 50%; 
+}
+
+.excellence__title{
+    padding-top: 15px;    
+    text-align: center;    
+    color: black;
+    font-weight: 500;
+    font-size: 35px; 
+}
+
+.excellence__title:first-child{
+    opacity: 0.5;
+}
+
+.excellence__approve{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;  
+    list-style:inside;  
+}
