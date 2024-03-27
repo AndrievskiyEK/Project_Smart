@@ -1,5 +1,5 @@
 .stages{
-    margin: 20px;
+    margin: 100px 20px 0px 20px;
 }
 
 .stages__title{
@@ -84,7 +84,7 @@
     opacity: 0.75;
 }
 
-.stage__descriptions-text{
+.stage__descriptions-content{
     margin-top: 20px;
     list-style:inside;
     font-size: 20px;

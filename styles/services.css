@@ -1,5 +1,5 @@
 .services {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .services__wrapper{
@@ -8,21 +8,53 @@
 }
 
 .services__contacts {
-    width: 500px;
+    width: 350px;
     height: 600px;
+    flex-shrink: 0;
+    padding-top: 285px;
+    padding-left: 60px;
+    padding-right: 30px;    
     background-image: url('../img/Contacts.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat; 
 }
 
-.services__contacts-text{
-    width: 350px;
-    padding-top: 285px;
-    padding-left: 70px;
-    padding-right: 30px;
+.services__contacts-title{  
     color: white;
     font-size: 25px;
+}
+
+.services__contact{
+    margin-top: 20px;     
+}
+
+.services__contact-wrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 45px;
+    flex-direction: row;
+    
+}
+
+.services__contact-title{
+    color: white;   
+}
+
+
+.services__contact-icon{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.75s;
+}
+
+.services__contact-icon:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.services__descriptions{
+    width: 100%;
 }
 
 .services__descriptions-header{
@@ -40,51 +72,5 @@
     font-weight: 700;
     font-size: 30px;
 }
-.services__contact{
-    margin-top: 10px;
-    margin-left: 70px;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-}
 
-.services__contact-telegramm,
-.services__contact-number{   
-    width: 230px;
-    position: relative;   
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    transition-duration: 0.75s;
-}
 
-.services__contact-telegramm:hover,
-.services__contact-number:hover {
-    color: #0af;    
-}
-
-.services__contact-telegramm::before{
-    position: absolute;
-    content:'';
-    width: 30px;
-    height:30px;
-    top: -8px;
-    left: -30px;
-    background-image: url(../img/iconTelegram.png);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
-
-.services__contact-number::before{
-    position: absolute;
-    content:'';
-    width: 30px;
-    height:30px;
-    top: -8px;
-    left: -30px;
-    background-image: url(../img/iconPhone.png);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
