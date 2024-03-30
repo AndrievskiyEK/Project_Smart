@@ -20,7 +20,7 @@
     height: 800px;
     flex: 30%;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
     font-weight: 700;    
     border-radius: 30px;
@@ -82,4 +82,11 @@
 .typesAssistans__contact-icon:hover{
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 767px){
+    .typesAssistans__card-wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
 }

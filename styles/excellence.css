@@ -37,3 +37,10 @@
     font-size: 20px;  
     list-style:inside;  
 }
+
+
+@media (max-width: 767px){
+    .excellence-wrapper{
+        flex-direction: column;
+    }
+}

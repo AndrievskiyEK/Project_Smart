@@ -27,26 +27,6 @@
 
 }
 
-/* .stage__number::after{
-  content: " ";
-  background: black;
-  width: 2px;
-  height: 60px;
-  top: 60%;  
-  left: 60.5%; 
-  position: absolute;
-} */
-
-/* .stage__number::after{
-    content:'';
-    width:20px;
-    height:20px;
-    border-radius:50%;
-    position:absolute;
-    top:-5%;
-    left:60%;    
-    border: 13px solid black;
-} */
 .stage__descriptions,
 .stage__descriptions-last{
     flex: 70%;
@@ -94,3 +74,20 @@
 .stage__after-none{
     content: none;
 }
+
+@media (max-width: 767px){
+    .stages__card{
+        flex-direction: column;
+    }
+
+    .stage__descriptions::after{
+        content: none;
+    }
+
+    .stage__descriptions::before,
+    .stage__descriptions-last::before{
+    content:none;
+    }
+}
+
+

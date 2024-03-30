@@ -7,38 +7,47 @@
     flex-direction: row;
 }
 
-.services__contacts {
-    width: 350px;
+.services__communications {
+    width: 400px;
     height: 600px;
-    flex-shrink: 0;
-    padding-top: 285px;
-    padding-left: 60px;
-    padding-right: 30px;    
+    flex-shrink: 0;   
     background-image: url('../img/Contacts.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat; 
-}
-
-.services__contacts-title{  
-    color: white;
-    font-size: 25px;
+    transition-duration: 1s;
 }
 
 .services__contact{
-    margin-top: 20px;     
+    margin: 250px 50px 0px 50px; 
+    padding: 60px 20px 0px 25px;
+    height: 280px;
+    background: rgba(71, 67, 67, 0.9);
+    border-radius: 20px; 
+    position: relative; 
 }
+
+.services__contact::after{
+    content: '\201c';
+    position: absolute;
+    top: -40px;
+    right: 0%;
+    color: white;
+    font-size: 150px;    
+}
+
 
 .services__contact-wrapper{
     margin-top: 20px;
     display: flex;
     gap: 45px;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
 
-.services__contact-title{
-    color: white;   
+.services__contact-title{   
+    color: white;  
+    font-size: 20px; 
+    line-height: 30px;
 }
 
 
@@ -54,23 +63,68 @@
 }
 
 .services__descriptions{
+    padding-top: 60px;
     width: 100%;
+    background: rgb(86,86,88);
+    background: linear-gradient(180deg, rgba(86,86,88,1) 0%, rgba(248,248,248,1) 44%, rgba(217,213,199,1) 100%);
 }
 
-.services__descriptions-header{
+/* .services__descriptions-header{
     text-align: center;
     color: black;
     font-weight: 700;
     font-size: 35px;    
-}
+} */
 
 .services__descriptions-item{
     line-height: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 30px;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
+}
+
+.services__descriptions-item:nth-child(1){
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.services__descriptions-item:nth-child(2n){
+    font-size: 26px;
+    color: #505251;
+}
+
+.services__descriptions-item:nth-child(3){
+    font-weight: 700;
+    color: #6B767F;
+}
+
+
+    
+
+
+
+@media (max-width: 767px){
+    .services__wrapper{
+        flex-direction: column;
+    }
+
+    .services__contacts {
+        width: 100%;        
+    }
+
+    .services__descriptions-header{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .services__descriptions-item{
+        line-height: 30px;
+        margin-top: 30px;
+        margin-left: 10px;        
+        font-size: 20px;
+    }
 }
 
 

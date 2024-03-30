@@ -21,22 +21,32 @@
 
 .titlePage__brand {
     padding-top: 50px;
-    padding-left: 40px;
+    padding-left: 35px;
     color: white;
     font-size: 40px;
     font-weight: 700;
+    /* -webkit-text-stroke: 1px black; */
 }
 
 .titlePage__brand-descriptions{
-    padding-top: 115px;
-    padding-left: 40px;
-    width: 100px;
+    margin-top: 185px;
+    margin-left: 35px;
+    max-width: 100px;
     color: white;
     font-size: 40px;
     line-height: 45px;
     font-weight: 700;
 }
 
+.titlePage__brand-slogan{
+    margin-top: 135px;
+    margin-left: 56px;
+    max-width: 350px;
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+/* 
 .titlePage__contact{
     margin-top: 90px;
     margin-left: 40px;    
@@ -64,19 +74,24 @@
 .titlePage__contact-icon:hover{
     width: 60px;
     height: 60px;
-}
+} */
 
 
 @media (max-width: 1199px){
-    .titlePage__brand{
-        
-    }
-
     .titlePage__contact{
         display: none;
     }
 }
 
 @media (max-width: 767px){
+    .titlePage__brand{
+        max-width: 300px;
+        font-size: 35px;
+    }
 
+    .titlePage__brand-descriptions{
+        padding-top: 170px;
+        max-width: 300px;
+        font-size: 35px;
+    }
 }

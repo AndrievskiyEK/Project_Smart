@@ -3,6 +3,7 @@
 }
 
 .forClients__wrapper{
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -52,4 +53,46 @@
 .forClients__bonus-content{
     margin-bottom: 20px;
     font-size: 25px;
+}
+
+
+.forClients__contact{
+    margin: 5% 30% 0 30%;
+}
+
+.forClients__contact-title{            
+    line-height: 30px;
+    font-size: 20px; 
+    text-align: center;   
+}
+
+
+.forClients__contact-wrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 45px;
+    flex-direction: row;  
+    justify-content: space-between;  
+}
+
+.forClients__contact-icon{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.75s;
+}
+
+.forClients__contact-icon:hover{
+    width: 60px;
+    height: 60px;
+}  
+
+@media (max-width: 767px){
+    .forClients__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forClients__time{
+        width: 350px;
+    }
 }
