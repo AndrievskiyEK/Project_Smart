@@ -10,8 +10,9 @@
 
 .forClients__time{
     width: 370px;
-    padding: 250px 30px 0px 80px;
-    height: 600px;   
+    padding: 275px 30px 0px 30px; 
+    text-align: center;
+    height: 650px;   
     background-image: url('../img/keyboard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,6 +29,37 @@
     font-size: 20px;
     margin-left: 10px;    
 }
+
+
+.forClients__contact{
+    margin: 35% 5% 0 5%;
+}
+
+.forClients__contact-title{            
+    line-height: 30px;
+    font-size: 20px; 
+       
+}
+
+
+.forClients__contact-wrapper{
+    margin-top: 10px;
+    display: flex;
+    gap: 45px;
+    flex-direction: row;  
+    justify-content: space-between;  
+}
+
+.forClients__contact-icon{
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.75s;
+}
+
+.forClients__contact-icon:hover{
+    width: 60px;
+    height: 60px;
+}  
 
 
 
@@ -56,43 +88,29 @@
 }
 
 
-.forClients__contact{
-    margin: 5% 30% 0 30%;
-}
 
-.forClients__contact-title{            
-    line-height: 30px;
-    font-size: 20px; 
-    text-align: center;   
-}
-
-
-.forClients__contact-wrapper{
-    margin-top: 20px;
-    display: flex;
-    gap: 45px;
-    flex-direction: row;  
-    justify-content: space-between;  
-}
-
-.forClients__contact-icon{
-    width: 50px;
-    height: 50px;
-    transition-duration: 0.75s;
-}
-
-.forClients__contact-icon:hover{
-    width: 60px;
-    height: 60px;
-}  
 
 @media (max-width: 767px){
     .forClients__wrapper{
         display: flex;
+        gap: 300px;
         flex-direction: column;
     }
 
     .forClients__time{
-        width: 350px;
+        margin: 0 auto;
+        padding: 30px 30px 0px 30px;
+        background-image: none; 
+        width: 100%;       
+        background: rgba(71, 67, 67, 0.9);
+        border-radius: 20px; 
+        height: 160px
+    }
+
+    .forClients__time-title, .forClients__time-content{
+        color: #ffffff;
     }
 }
+
+
+

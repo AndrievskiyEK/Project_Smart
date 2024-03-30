@@ -18,8 +18,7 @@
 
 .typesAssistans__card{
     height: 800px;
-    flex: 30%;
-    margin: 20px;
+    flex: 30%;    
     padding: 30px;
     font-size: 20px;
     font-weight: 700;    
@@ -84,9 +83,15 @@
     height: 60px;
 }
 
+@media (max-width: 1099px){
+    .typesAssistans__card-title{
+        margin-top: 0px;
+    }
+}
+
 @media (max-width: 767px){
     .typesAssistans__card-wrapper{
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
 }

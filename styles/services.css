@@ -40,8 +40,9 @@
 .services__contact-wrapper{
     margin-top: 20px;
     display: flex;
-    gap: 45px;
-    flex-direction: row;    
+    justify-content: space-between;
+    /* gap: 45px;
+    flex-direction: row; */    
 }
 
 .services__contact-title{   
@@ -66,23 +67,18 @@
     padding-top: 60px;
     width: 100%;
     background: rgb(86,86,88);
-    background: linear-gradient(180deg, rgba(86,86,88,1) 0%, rgba(248,248,248,1) 44%, rgba(217,213,199,1) 100%);
+    background: linear-gradient(180deg, rgba(86,86,88,1) 0%, rgba(255,255,255,1) 44%, rgba(217,213,199,1) 100%);
 }
 
-/* .services__descriptions-header{
-    text-align: center;
-    color: black;
-    font-weight: 700;
-    font-size: 35px;    
-} */
 
 .services__descriptions-item{
     line-height: 40px;
     margin-top: 30px;
     margin-left: 30px;
-    color: black;
+    color: #505251;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 35px;
+    filter: drop-shadow(0px 1px 1px #6B767F)
 }
 
 .services__descriptions-item:nth-child(1){
@@ -91,8 +87,7 @@
 }
 
 .services__descriptions-item:nth-child(2n){
-    font-size: 26px;
-    color: #505251;
+    font-size: 25px;    
 }
 
 .services__descriptions-item:nth-child(3){
@@ -101,30 +96,45 @@
 }
 
 
-    
+@media (max-width: 1099px){
+    .services__descriptions{
+        padding-top: 20px
+    }
+
+    .services__descriptions-item{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .services__descriptions-item:nth-child(2n){
+        font-size: 20px;    
+    }    
+}    
 
 
 
 @media (max-width: 767px){
     .services__wrapper{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 100px;
     }
 
-    .services__contacts {
-        width: 100%;        
+    .services__communications{
+        width: 100%;
     }
 
-    .services__descriptions-header{
-        margin-top: 30px;
-        font-size: 25px;
+    .services__contact {    
+       padding: 60px 0px 0px 0px;     
+       text-align: center;
+      
     }
 
-    .services__descriptions-item{
-        line-height: 30px;
-        margin-top: 30px;
-        margin-left: 10px;        
-        font-size: 20px;
+    .services__contact-wrapper{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 80%;
     }
 }
-
-

@@ -75,9 +75,43 @@
     content: none;
 }
 
+@media (max-width: 1099px){
+    .stage__descriptions::after{        
+        left: -15%;
+    }
+    .stage__descriptions::before,
+    .stage__descriptions-last::before{
+        left: -18.5%;
+    }
+}
+
+@media (max-width: 888px){
+    .stage__descriptions::after{        
+        left: -15%;
+    }
+    .stage__descriptions::before,
+    .stage__descriptions-last::before{
+        left: -19.5%;
+    }
+}
+
 @media (max-width: 767px){
     .stages__card{
         flex-direction: column;
+        word-wrap: break-word;
+    }
+
+    .stages__title{
+        font-size: 30px;
+    }
+
+    .stage__number{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+        opacity: 0.75;
+        margin-bottom: 20px;
+
     }
 
     .stage__descriptions::after{
@@ -87,6 +121,10 @@
     .stage__descriptions::before,
     .stage__descriptions-last::before{
     content:none;
+    }
+
+    .stage__descriptions-title{
+        text-align: center;
     }
 }
 

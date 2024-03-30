@@ -1,10 +1,8 @@
 @import url(./titlePage.css);
 @import url(./services.css);
-@import url(./assistens.css);
 @import url(./typeAssistens.css);
-@import url(./excellence.css);
 @import url(./stages.css);
-@import url(./forClients.css);
+@import url(./forClients.css); 
 
 body {
     font-family: 'Montserrat', sans-serif;
