@@ -91,9 +91,13 @@
 
 
 @media (max-width: 767px){
+    .forClients{
+        margin-top: 30px;
+    }
+
     .forClients__wrapper{
         display: flex;
-        gap: 300px;
+        gap: 220px;
         flex-direction: column;
     }
 
@@ -105,6 +109,10 @@
         background: rgba(71, 67, 67, 0.9);
         border-radius: 20px; 
         height: 160px
+    }
+
+    .forClients__contact{
+        margin: 18% 5% 0 5%;
     }
 
     .forClients__time-title, .forClients__time-content{

@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 767px){
+    .typesAssistans{
+        margin-top: 30px;
+    }
+
     .typesAssistans__card-wrapper{
         flex-direction: column;
         gap: 30px;

@@ -83,7 +83,7 @@
 
 .services__descriptions-item:nth-child(1){
     font-weight: 700;
-    color: #ffffff;
+    color: #ffffff;    
 }
 
 .services__descriptions-item:nth-child(2n){
@@ -111,15 +111,31 @@
 
     .services__descriptions-item:nth-child(2n){
         font-size: 20px;    
-    }    
+    } 
+    .services__descriptions-item:nth-child(1){
+        border: solid 1px #ffffff; 
+        padding: 3px;
+        border-radius: 10px; 
+    } 
+
+    .services__descriptions-item:nth-child(3){
+        border: solid 1px #6B767F; 
+        padding: 3px;
+        border-radius: 10px; 
+    } 
+
 }    
 
 
 
 @media (max-width: 767px){
+    .services{
+        margin-top: 30px;
+    }
+
     .services__wrapper{
         flex-direction: column-reverse;
-        gap: 100px;
+        gap: 30px;
     }
 
     .services__communications{

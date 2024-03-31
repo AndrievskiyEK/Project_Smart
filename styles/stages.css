@@ -16,7 +16,7 @@
 .stages__card{
     display: flex;
     margin-top: 30px;
-    padding: 30px
+    padding: 30px;
 }
 
 .stage__number{
@@ -96,21 +96,27 @@
 }
 
 @media (max-width: 767px){
+    .stages{
+        margin: 30px 20px 0px 20px;
+    }
+
     .stages__card{
+        margin-top: 10px;
+        padding: 10px;
         flex-direction: column;
         word-wrap: break-word;
     }
 
     .stages__title{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .stage__number{
         text-align: center;
-        font-size: 30px;
-        text-decoration: underline;
+        font-size: 28px;        
         opacity: 0.75;
         margin-bottom: 20px;
+        text-decoration: underline;
 
     }
 
@@ -125,6 +131,8 @@
 
     .stage__descriptions-title{
         text-align: center;
+        font-size: 28px; 
+
     }
 }
 
